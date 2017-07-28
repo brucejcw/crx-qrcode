@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Local2Ip QRCode",
+    "description": "auto convert localhost to ip address, generate qrcode for current website"
+  },
+  "appDescription": {
+    "message": "Local2Ip QRCode",
+    "description": "auto convert localhost to ip address, generate qrcode for current website"
+  }
+}

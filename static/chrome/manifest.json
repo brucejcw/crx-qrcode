@@ -1,0 +1,23 @@
+{
+  "name": "Local2Ip QRCode",
+  "version": "1.0.3",
+  "manifest_version": 2,
+  "description": "generate qrcode, automatically change local to ip address",
+  "icons": {
+    "128": "images/icon-128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+    ]
+  },
+  "permissions": ["tabs", "https://www.google-analytics.com/", "storage"],
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon-128.png"
+    },
+    "default_title": "Local2Ip QRCode",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://www.google-analytics.com 'unsafe-eval'; object-src 'self';"
+}
