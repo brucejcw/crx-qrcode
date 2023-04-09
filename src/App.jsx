@@ -13,7 +13,7 @@ export function App() {
   const [hostnameList, setHostnameList] = useState(defaultList)
 
   useEffect(() => {
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+    chrome.tabs.query({ active: true }, (tabs) => {
       chrome.storage.local.get(['hostnameList'], (result) => {
         const newList = result.hostnameList || defaultList
         setHostnameList(newList)
