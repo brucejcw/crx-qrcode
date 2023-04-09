@@ -1,0 +1,47 @@
+body {
+  width: 220px;
+}
+
+.container {
+  padding: 10px;
+
+  .actionBar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    a {
+      color: #148cf3;
+      text-decoration: none;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #qrcode {
+    img {
+      display: block;
+    }
+  }
+}
+
+.host-list {
+  margin-top: 20px;
+
+  > div {
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &.icon-minus {
+      color: red;
+    }
+  }
+}

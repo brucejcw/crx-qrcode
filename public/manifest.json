@@ -1,0 +1,14 @@
+{
+  "name": "Local2Ip QRCode",
+  "description": "Generate localhost to ip-address qrcode.",
+  "version": "1.0.4",
+  "manifest_version": 3,
+  "icons": {
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "images/icon-128.png"
+  },
+  "permissions": ["tabs", "storage"]
+}
